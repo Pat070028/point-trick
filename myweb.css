@@ -1,0 +1,108 @@
+
+*{
+    margin:0;
+    padding:0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+body{
+    background-color: #EAE5E5 !important;
+}
+.navbar{
+    margin-top: 2rem;
+    margin: 0;
+    padding:0;
+    background-color: #454242;
+    
+}
+.navbar-brand {
+    margin-left:2.5rem;
+    color: #EAE5E5 !important;
+
+    
+}
+.navbar-brand h3{
+    font-weight: bold !important;
+}
+.nav-link{
+    margin-left: 5rem;
+    color: #EAE5E5 !important;
+   
+}
+
+.nav-link{
+    transition: all 0.2;
+}
+.nav-link:hover{
+   border-bottom: 2px solid #E3D235;
+
+}
+
+
+.main-content{
+    display: flex;
+    margin-top: 10rem;
+    margin-left: 2.5rem;
+}
+
+.main-content > .left-side{
+
+    margin-top: 11rem;
+   
+
+}
+.main-content > .right-side{
+
+    margin-left: 5rem;
+    margin-bottom: 10rem;
+
+}
+.left-side h3{
+    line-height: 4rem;
+    font-weight: bold;
+}
+.left-side{
+   margin-left: 2.5rem;
+   font-size: 20px;
+   
+}
+.left-side ul{
+    display: flex;
+
+}
+.left-side ul li{
+    padding-left: 5rem;
+    overflow: hidden;
+    line-height: 5rem;
+}
+
+.left-side h3{
+    font-size: 43px;
+}
+.right-side{
+ 
+  width: 20rem;
+
+}
+.bg-warning{
+    background-color: #E3D235 !important;
+}
+
+.left-side span{
+    border-bottom: 4px solid #E3D235;
+}
+
+#btn-talk{
+    margin-left: 1rem;
+    border: #E3D235 1px solid !important;
+}
+
+#btn-discuss{
+    margin-left: 3rem;
+    width: 20rem;
+    color: black !important;
+}
+
+
+
