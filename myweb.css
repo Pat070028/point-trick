@@ -128,56 +128,77 @@ body{
 
 
 
+@media screen and (max-width:667px) {
 
+       
 
-
-
-
-
-
-
-
-
-
-@media (max-width:720px) {
-
-    /*content*/
-    .main-content > .left-side{
+     
+    
+    .main-content .left-side h3{
+        justify-content: center;
+        align-items: center;
+        font-size:90%;
+        line-height: 30px;
         position: relative;
-        margin-top: 24rem;
-        padding-left: 1px;
+        right: 17%;
+        bottom:30%;
+        
         
     }
-    .left-side >h3{
-        margin-right: 38rem;
-        font-size: 2rem;
-        line-height: 50px;
+    .main-content ul li{
+        position: relative;
+        right: 23%;
+        font-size: 60%;
+        padding-left: 15%;
+
+    }
+     ul{
+        position: relative;
+        bottom: 37%;
+        
+     }
+    .main-content .btn-outline-dark{
+        position: relative;
+        bottom:50%;
+        right: 35%;
+        font-size: 50%;
+        width: 50% !important;
+       
+
+    }
+    .main-content .btn-outline-light{
+        position: relative;
+        bottom: 64.2%;
+        left:40%;
+        font-size: 50%;
+        width:30% !important
+    }
+
+    .btn-outline-dark{
+        position: relative;
+        bottom:100%;
+    }
+    .btn-outline-light{
+        margin-bottom: 50%;
+    }
+
+    .main-content .right-side{
+     
+        background-color: transparent;
+
+    }
+    .main-content .right-side img{
+        width: 200%;
+        position: relative;
+        margin-right: 500%;
         
     }
 
 
-
-
-    
-        /*image*/
-    .right-side {
-        display: flex;
-        position: relative;
-        right: 60rem;
-        top:20px;
-        width: 80%;
-      
-
-    }
-    .right-side >img{
-       position: relative;
-       bottom:50px;
-       left: 1px;
-       border-radius: 50%;
-  
-    }
-    
 }
+
+
+
 
 
 
